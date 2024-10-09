@@ -1,0 +1,19 @@
+.reply-button {
+    margin-left: auto;
+}
+
+.reply-to-post {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.reply-box {
+    margin-top: 5px;
+}
+
+.comment-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

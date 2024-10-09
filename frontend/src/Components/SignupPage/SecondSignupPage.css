@@ -1,0 +1,52 @@
+.second-signup-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.hashtags {
+    margin: 20px;
+}
+
+.hashtag {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #f0f0f0;
+}
+
+.hashtag.selected {
+    background-color: #abcdef;
+}
+
+.actors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.actor {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.actor img {
+    width: 100px;
+    /* Adjust size as needed */
+    height: 100px;
+}
+
+.actor.selected {
+    border-color: blue;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+}

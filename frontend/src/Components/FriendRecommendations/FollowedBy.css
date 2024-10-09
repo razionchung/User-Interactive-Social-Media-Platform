@@ -1,0 +1,56 @@
+.friend-recommendation-content {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.recommendation-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.username,
+.mutual-friends {
+    font-size: 14px;
+}
+
+.see-all {
+    color: #0095f6;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.suggestions-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.followedby {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.follow-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #3897f0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.suggestions-list {
+    display: flex;
+    flex-direction: column;
+}

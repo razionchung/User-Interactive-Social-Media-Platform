@@ -1,0 +1,41 @@
+.search-page {
+    display: flex;
+    min-height: 100vh;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+/* Main search content styles */
+.search-content {
+    margin-left: 350px;
+    margin-right: 350px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+.search-tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tab.active {
+    color: #0095f6;
+    border-bottom: 2px solid #0095f6;
+}

@@ -1,0 +1,100 @@
+.signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.signup-form-card {
+    background: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    width: 350px;
+}
+
+.signup-form-card h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 3.5rem;
+}
+
+.signup-form-card p,
+.signup-form-card a {
+    font-size: 0.9rem;
+    color: #262626;
+}
+
+.signup-form-card a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-facebook {
+    background-color: #0095f6;
+    border: none;
+    padding: 5px 9px;
+    color: white;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 20px 0;
+    position: relative;
+}
+
+.divider:before,
+.divider:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 40%;
+    top: 50%;
+    background-color: #dbdbdb;
+}
+
+.divider:before {
+    left: 0;
+}
+
+.divider:after {
+    right: 0;
+}
+
+.divider strong {
+    background-color: #FFFFFF;
+    padding: 0 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.signup-btn {
+    width: 100%;
+    background-color: #0095f6;
+    border: none;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.disclaimer,
+.terms {
+    margin-top: 10px;
+    color: #999;
+}
+
+.login-link {
+    margin-top: 20px;
+}

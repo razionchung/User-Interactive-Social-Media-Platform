@@ -1,0 +1,33 @@
+.main-page {
+    display: grid;
+    grid-template-columns: 200px 1fr 300px; /* Sidebar | Feed | Right-side components */
+    grid-template-rows: auto; 
+    gap: 20px; 
+    padding: 20px; 
+    height: 100vh; 
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    height: 100%; 
+    overflow-y: auto;
+}
+
+.feed {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    overflow-y: auto; 
+    max-height: 100vh;
+}
+
+.friend-lists {
+    grid-column: 3 / 4; 
+    grid-row: 1; 
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    overflow-y: auto; 
+    max-height: 100vh;
+}

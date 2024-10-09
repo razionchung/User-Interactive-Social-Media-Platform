@@ -1,0 +1,32 @@
+.create-group-chat {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.create-group-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-selection-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-selection {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.user-selection.selected {
+    background-color: #f0f0f0;
+}

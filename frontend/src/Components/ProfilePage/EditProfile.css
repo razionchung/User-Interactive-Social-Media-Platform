@@ -1,0 +1,100 @@
+.edit-profile-layout {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.edit-profile-sidebar {
+    width: 250px;
+    background-color: #f5f5f5;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.edit-profile-main {
+    flex: 1;
+    padding: 80px;
+    /* margin-left: 100px; */
+    /* Ensure space for the sidebar */
+}
+
+.status-message {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.edit-profile-form {
+    margin-bottom: 20px;
+}
+
+.edit-profile-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-profile-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.actor-selection {
+    margin-top: 20px;
+}
+
+.actor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.actor {
+    cursor: pointer;
+    text-align: center;
+    flex: 1 1 calc(25% - 20px);
+    /* Adjusts items to fit 4 per row */
+}
+
+.actor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hashtags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hashtag {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.hashtag.selected {
+    background-color: green;
+    color: white;
+}
+
+.save-changes-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
