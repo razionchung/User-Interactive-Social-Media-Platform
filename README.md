@@ -1,14 +1,10 @@
 ## Overview
 
-The course project will involve building "InstaLite," an Instagram-like social media site with full support for images (and optionally videos). This project is to be done in *teams* and will build upon components you built over the semester in your homeworks.
-
-*Instructors' note*: During interviews, companies often ask you to tell them about a technical project you worked on. If you invest enough time, this project can play that role; you can add it to your “portfolio” of system that you can show a potential employer!  (We do ask that you keep your repo private, however.)
-
-*General Advice*: Read through this entire document and compile a list of (1) data resources you'll need to design, (2) backend endpoints, (3) frontend pages / widgets, (4) interfaces to additional components such as ChatGPT and Apache Spark. Try to establish "core" functionality and build outwards.
+The course project will involve building "InstaLite," an Instagram-like social media site with full support for images (and optionally videos). 
 
 ## Project Technology Stack
 
-Your project will have a number of elements, building upon what you did with the homework. We expect the following:
+The project will have a number of elements, building upon what you did with the homework. We expect the following:
 
 * **Backend** services in Node.js and/or Java, hosted on Amazon EC2 (you may use `nginx` to make these accessible through the same TCP port)
 * **Database** (accounts, social network, etc.) hosted in RDS and/or DynamoDB (many aspects will work better in RDS)
@@ -144,8 +140,6 @@ There should be a way for users to chat with each other. You can implement this 
 ### 4. Natural Language Search
 
 Uses should be able to search (1) for people, and (2) for posts. These should use *retrieval-augmented generation* over the indexed content of actors, movie reviews, and posts; and should use a Large Language Model to find the best matches.
-
-**EC**: ensure the search results return links so users can add friend / follow / interest based on the returned results.
 
 ### Security and Scalability
 
