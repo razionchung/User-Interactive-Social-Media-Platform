@@ -1,0 +1,15 @@
+{
+    "database": {
+      "host": "localhost",
+      "port": "3306",
+      "database": "socialmediadb"
+    },
+    "serverPort": "8080",
+    "s3BucketName": "imdb-embeddings-upenn-nets2120-2024sp-cloudyssey",
+    "bootstrapServers": ["localhost:9092"],
+    "groupId": "nets-2120-group-29",
+    "twitter-topic": "Twitter-Kafka",
+    "federated-post-topic": "FederatedPosts",
+    "serverRootURL": "http://localhost:8080",
+    "port": 8080
+  }
